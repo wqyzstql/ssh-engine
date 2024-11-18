@@ -35,7 +35,7 @@ Host target-host
     User yourusername
     IdentityFile path/to/your/sshkey
     ProxyJump JumpMacnhine1
-	RemoteCommand path/to/stockfish
+        RemoteCommand path/to/stockfish
 ```
 
 ## Running
