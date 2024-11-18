@@ -1,3 +1,7 @@
+Update: Change the configuration file format to SSH config file, added support for commands such as ProxyJump, but only in Windows test passed!
+
+
+
 When using some chess software like Chessbase, you may need an executable that is a proxy to a remote chess engine. This simple program is meant just for that.
 
 Specifically, it builds an .exe that you can point to that just connects to a remote server using SSH. There is an external config file that you use so you can change the settings without needing to build a new .exe file.
